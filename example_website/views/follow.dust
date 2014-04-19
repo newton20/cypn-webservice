@@ -1,0 +1,31 @@
+{>"layouts/public"/}
+
+{<title}{title}{/title}
+
+{<html_header}
+{/html_header}
+
+{<html_body}
+	<div class="container-inner cf">
+		
+		<div class="container-left">
+			Email us at <a href="mailto:TeamJiraChat@gmail.com">TeamJiraChat@gmail.com</a>
+			<br /><br />
+			<h4>Team</h4>
+			<ul>
+				<li>Dominick Pham - <a href="https://twitter.com/enotionz">@enotionz</a></li>
+				<li>Nick Swider - <a href="https://twitter.com/nickswider">@nickswider</a></li>
+				<li>Anoop Phillip - <a href="https://twitter.com/anoos">@anoos</a></li>
+				<li>Jeff Kwan - <a href="https://twitter.com/mirthy">@mirthy</a></li>
+				<li>Simon Chen - <a href="https://twitter.com/eagleofpc">@eagleofpc</a></li>
+				<li>Ben Muschko- <a href="https://twitter.com/bmuschko">@bmuschko</a></li>
+				<li>Imran Khawaja (Honorary)</li>
+				<li>Stan Yamane (Advisor)</li>
+			</ul>	
+		</div>
+		<div class="container-right">
+			<a class="twitter-timeline" href="https://twitter.com/TeamJiraChat" data-widget-id="291985557742026753">Tweets by @TeamJiraChat</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+	</div>
+{/html_body}

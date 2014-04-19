@@ -1,0 +1,12 @@
+{>"layouts/public"/}
+
+{<title}{title}{/title}
+
+{<html_header}
+{/html_header}
+
+{<html_body}
+	<div class="container-inner">
+		Screenshots coming Soon!
+	</div>
+{/html_body}

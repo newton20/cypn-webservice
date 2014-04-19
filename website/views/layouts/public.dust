@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{system_name|s}{?title} | {title}{/title}</title>
+	<link href="/css/base.css" rel="stylesheet" type="text/css" />
+	{+html_header}{/html_header}
+</head>
+<body>
+
+	<div id="header-wrapper">
+		<header id="navbar">
+			<div class="navbar-left">
+				<h1><a href="/">{system_name|s}</a></h1>
+			</div>
+			<div class="navbar-right">
+				{>"partials/nav"/}
+			</div>
+		</header>
+	</div>
+	<div id="container">
+
+			{#flash}
+			<div style="background:#f66">
+				<p>{warn}</p>
+			</div>
+			{/flash}
+			
+			{+html_body}
+				Oops, something went wrong...
+			{/html_body}
+		
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+</body>
+</html>

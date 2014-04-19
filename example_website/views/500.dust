@@ -1,0 +1,10 @@
+{>"layouts/public"/}
+
+{<title}500{/title}
+
+{<html_body}
+	<h2>500'd!</h2>
+	<!--
+	{error}
+	-->
+{/html_body}

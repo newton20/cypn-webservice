@@ -1,0 +1,7 @@
+{>"layouts/public"/}
+
+{<title}404{/title}
+
+{<html_body}
+	<h2>404'd!</h2>
+{/html_body}

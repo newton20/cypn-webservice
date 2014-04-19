@@ -1,0 +1,109 @@
+{>"layouts/public"/}
+
+{<title}{title}{/title}
+
+{<html_header}
+	<link href="/css/home.css" rel="stylesheet" type="text/css" />
+{/html_header}
+
+{<html_body}
+	
+	<section id="summary">
+		<div class="contentArea cf">
+			<div id="mainLogo"></div>
+			<h3>The most important part of talking to computers is talking to people.</h3>
+			<p><b>Jira Chat</b> is a plug-in for Jira that provides text and video chat between users. Transcripts and video recordings can be saved and posted to relevant tickets for future reference.</p>
+		</div>
+	</section>
+	<section id="usecases">
+		<div class="contentArea cf">
+			<div class="location">
+				<div class="image"></div>
+				<p>When you work in the digital world, location is irrelevant -- if you have team members in other offices, on the other side of the world, or just working from home, synchronous digital communication is non-optional. Our tools provide text and video chat that 'just works.'</p>
+				<div class="divider"></div>
+			</div>
+			<div class="time">
+				<p>Even if your coworkers are in your office, conference rooms can be scarce. Often the hassle of reserving a room takes longer than the conversation you're scheduling. Using <b>Jira Chat</b>, meetings can be spontaneous and save valuable overhead time.</p>
+				<div class="image"></div>
+				<div class="divider"></div>
+			</div>
+			<div class="document">
+				<div class="image"></div>
+				<p>The details discussed in mid-project meetings were overlooked in planning for a reason -- they're easy to forget, and it will probably happen again. You'll never have to have that conversation again, "I remember talking about it, what did we decide?" Now your tickets will have links to text chat transcripts and video chat recordings with definitive answers.</p>
+			</div>
+		</div>
+	</section>
+	<section id="features">
+		<div class="contentArea cf">
+			<ul>
+				<li>
+					Text Chat
+					<p>Replace Jabber, Yammer,<br />and any other text-based<br />communication tools</p>
+				</li>
+				<li>
+					Video Chat
+					<p>Replace Tandberg, Movi,<br />Skype, and any other<br />video chat services</p>
+				</li>
+				<li>Group Chat
+					<p>Add multiple users to a<br />single chat wihtout a bridge or<br />a precordinated central call in</p>
+				</li>
+				<li>Recording
+					<p>Automaticaly store transcripts<br />and recordings of all<br />communications, with context</p>
+				</li>
+				<li>Jira Commenting
+					<p>Centralize all your documentation,<br />and reduce your dependancies<br />on outside artifacts</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="pricing">
+		<div class="contentArea cf">
+			<div id="pricing-table" class="clear">
+		<div class="plan">
+				<h3>Free<span>$0</span></h3>
+				<a class="signup" href="">Sign up</a>
+				<ul>
+					<li><b>10</b> Users</li>
+					<li><b>30min</b> Video Calls</li>
+					<li><b>2</b> Caller Limit</li>
+					<li><b>Text</b> Recording</li>
+				</ul> 
+		</div >
+		<div class="plan">
+				<h3>Small Business<span>$149</span></h3>
+				<a class="signup" href="">Sign up</a>
+				<ul>
+					<li><b>50</b> Users</li>
+					<li><b>Unlimited</b> Video Calls</li>
+					<li><b>Unlimited</b> Caller Limit</li>
+					<li><b>Video</b> Recording</li>
+				</ul>
+		</div>
+		<div class="plan" id="most-popular">
+				<h3>Medium Business<span>$299</span></h3>
+		<a class="signup" href="">Sign up</a>
+				<ul>
+					<li><b>150</b> Users</li>
+					<li><b>Unlimited</b> Video Calls</li>
+					<li><b>Unlimited</b> Caller Limit</li>
+					<li><b>Video</b> Recording</li>
+				</ul>
+		</div>
+		<div class="plan">
+				<h3>Corporate<span>$499</span></h3>
+				<a class="signup" href="">Sign up</a>
+				<ul>
+					<li><b>Unlimited</b> Users</li>
+					<li><b>Unlimited</b> Video Calls</li>
+					<li><b>Unlimited</b> Caller Limit</li>
+					<li><b>Video</b> Recording</li>
+				</ul>
+		</div> 	
+</div>
+
+
+
+		</div>
+	</section>
+
+{/html_body}

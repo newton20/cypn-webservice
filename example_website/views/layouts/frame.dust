@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jira</title>
+	<link href="css/frame.css" rel="stylesheet" type="text/css" />
+	<script src="/lib/underscore.js"></script>
+</head>
+<body class="sidebarcollapsed">
+
+	<!--iframe src="http://jirachat.cloudapp.net:8080/browse/DEMO-1" id="jira_frame"></iframe-->
+	<iframe src="https://jira.freewebs.com/" id="jira_frame"></iframe>
+
+	<div id="sidebar">
+		<div id="sidebartoggle">
+		</div>
+		<div id="contacts">
+			<h4>Online Members</h4>
+			<ul></ul>
+			<a class="btn-hangout" href="https://hangoutsapi.talkgadget.google.com/hangouts?authuser=0&gid=1055402507021" target="_blank">Start a hangout</a>
+		</div>
+	</div>
+
+	<iframe id="video_chat"></iframe>
+	<div id="chats"></div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script src="/lib/backbone.js"></script>
+	<script src="/faye/browser/faye-browser.js"></script>
+	<script src="js/jc.js"></script>
+	<script src="js/jc.sidebar.js"></script>
+	<script src="js/sync/jc.sync.js"></script>
+	<script src="js/chat/jc.chat.js"></script>
+</body>
+</html>
